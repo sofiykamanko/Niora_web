@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIORA - Створення сайту</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_new.css"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            
+            <a class="logo logo--text" href="#">NIORA</a> 
+
+            <nav class="nav nav--desktop">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#shop">Shop</a></li>
+                    <li><a class="nav__link" href="#harmony">Harmony</a></li>
+                    <li><a class="nav__link" href="#about">About</a></li>
+                    <li><a class="nav__link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <a class="logo logo--image" href="#">
+                <img src="img/logo.png" alt="Логотип Орхідея NIORA"> 
+            </a>
+
+            <input class="menu-toggle" id="menu-toggle" type="checkbox">
+            <label class="burger-icon" for="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <nav class="nav nav--mobile">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#shop">Shop</a></li>
+                    <li><a class="nav__link" href="#harmony">Harmony</a></li>
+                    <li><a class="nav__link" href="#about">About</a></li>
+                    <li><a class="nav__link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-overlay"></div>
+        </div>
+    </header>
+    
+    <main>
+    <section class="home" id="home">
+        <div class="container home__inner">
+            <div class="home__content">
+                <h1 class="home__title">
+                    This Pink Is Powerful
+                </h1>
+                <p class="home__subtitle">
+                    Pure, natural, and honest — created to help you feel in tune with nature’s rhythm and discover beauty without compromise.
+                </p>
+                <a href="#shop" class="btn btn--home">
+                    Shop Now !
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="shop"></section>
+    
+
+    <section class="shop" id="shop">
+    <div class="container shop__inner">
+        
+        <h2 class="shop__title">SHOP</h2>
+
+        <div class="shop__grid">
+            
+            <figure class="product-card">
+                <div class="product-card__image-container">
+                    <img src="img/niacumid.png" alt="Niacinamide Serum"> 
+                </div>
+                <figcaption class="product-card__details">
+                    <h3 class="product-card__name">Niacinamide Serum</h3>
+                    <p class="product-card__volume">30 ml / 1 fl. oz.</p>
+                    <p class="product-card__description">Balances skin tone and minimizes pores for a smooth, healthy-looking complexion.</p>
+                    <p class="product-card__price">$ 22.00</p>
+                </figcaption>
+            </figure>
+
+            <figure class="product-card">
+                <div class="product-card__image-container">
+                    <img src="img/vitamin_c.png" alt="Vitamin C Brightening Serum"> 
+                </div>
+                <figcaption class="product-card__details">
+                    <h3 class="product-card__name">Vitamin C Brightening Serum</h3>
+                    <p class="product-card__volume">30 ml / 1 fl. oz.</p>
+                    <p class="product-card__description">Boosts radiance and helps fade dark spots for a luminous glow.</p>
+                    <p class="product-card__price">$ 25.57</p>
+                </figcaption>
+            </figure>
+            
+            <figure class="product-card">
+                <div class="product-card__image-container">
+                    <img src="img/rose_mask.png" alt="Rose Hydration Gel Mask"> 
+                </div>
+                <figcaption class="product-card__details">
+                    <h3 class="product-card__name">Rose Hydration Gel Mask</h3>
+                    <p class="product-card__volume">50 ml / 1.7 fl. oz.</p>
+                    <p class="product-card__description">A soothing gel mask that deeply hydrates and refreshes tired skin.</p>
+                    <p class="product-card__price">$ 28.08</p>
+                </figcaption>
+            </figure>
+            
+            <figure class="product-card">
+                <div class="product-card__image-container">
+                    <img src="img/green_mask.png" alt="Green Clay Detox Mask"> 
+                </div>
+                <figcaption class="product-card__details">
+                    <h3 class="product-card__name">Green Clay Detox Mask</h3>
+                    <p class="product-card__volume">50 ml / 1.7 fl. oz.</p>
+                    <p class="product-card__description">Purifies and clarifies the skin by drawing out impurities and excess oil.</p>
+                    <p class="product-card__price">$ 26.00</p>
+                </figcaption>
+            </figure>
+
+            <figure class="product-card">
+                <div class="product-card__image-container">
+                    <img src="img/micelar.png" alt="Botanical Micellar Water"> 
+                </div>
+                <figcaption class="product-card__details">
+                    <h3 class="product-card__name">Botanical Micellar Water</h3>
+                    <p class="product-card__volume">200 ml / 6.7 fl. oz.</p>
+                    <p class="product-card__description">A gentle, plant-based cleanser that removes makeup and refreshes the skin.</p>
+                    <p class="product-card__price">$ 18.50</p>
+                </figcaption>
+            </figure>
+            
+        </div> <div class="shop__footer-text">
+            <p class="shop__slogan">At NIORA, we believe skincare should be a ritual of pure elegance.</p>
+            <p class="shop__mission">Each product is crafted with high-performance natural ingredients, refined formulations, and uncompromising attention to detail. Our collections are designed to deliver visible results while indulging the senses — clean textures, delicate colors, and timeless minimalism. NIORA is more than skincare; it is a promise of balance, radiance, and harmony with nature, created for those who value both beauty and sophistication.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="floral-special" id="harmony">
+        <div class="container">
+            <div class="floral-special__gallery">
+                
+                <div class="gallery__item gallery__item--left">
+                    <img src="img/orch3.jpg" alt="Великий букет орхідей">
+                </div>
+                
+                <div class="gallery__column-center">
+                    <div class="gallery__item gallery__item--top">
+                        <img src="img/orch2.jpg" alt="Губи з олією">
+                    </div>
+                    <div class="gallery__item gallery__item--bottom">
+                        <img src="img/orch4.jpg" alt="Орхідеї на чорному тлі">
+                    </div>
+                </div>
+                
+                <div class="gallery__item gallery__item--right">
+                    <img src="img/orch1.jpg" alt="Орхідея на мокрій машині">
+                </div>
+
+            </div>
+            <div class="floral-special__content">
+                <h2 class="promo__title">Floral Special</h2>
+                <p class="promo__text">Our fan-favorite Orchids’ Temptation Infused Lip Oil has returned.</p>
+                <p class="promo__highlight">Here's the sweetest part:</p>
+                <p class="promo__offer">Our Floral Special is yours for FREE when you spend $59.</p>
+                <a href="#shop" class="btn btn--promo">Want Now!</a>
+            </div>
+        </div>
+    </section>
+<section class="about" id="about">
+        <div class="container about__inner">
+            <h2 class="about__title">ABOUT</h2>
+
+            <div class="about__content">
+                
+                <div class="about__media">
+                    <video autoplay muted loop playsinline class="about__video">
+                        <source src="img/video_set.mp4" type="video/mp4">
+                    </video>
+                </div>
+                
+                <div class="about__text-column">
+                    
+                    <div class="about__block">
+                        <h3 class="about__block-title">What is NIORA?</h3>
+                        <p class="about__block-body"><strong>NIORA</strong> is a premium skincare brand born from the harmony of nature and science. It started with a simple idea — that nature’s most precious extracts could be combined with science-backed actives to deliver visible, lasting results. From this vision, our first formulas were crafted: gentle, effective, and designed to elevate everyday skincare into something more meaningful.</p>
+                    </div>
+
+                    <div class="about__block">
+                        <h3 class="about__block-title">Philosophy</h3>
+                        <p class="about__block-body">We believe skincare should be a ritual, not a compromise. Each product blends <strong>botanical ingredients</strong> such as rose, green clay, and botanical micelles with advanced actives like <strong>Vitamin C, Niacinamide, and Hyaluronic Acid</strong>. This unique synergy ensures results you can see and feel, while keeping every formula safe, clean, and elegant.</p>
+                    </div>
+                    
+                    <div class="about__block about__block--experience">
+                        <h3 class="about__block-title">Experience</h3>
+                        <p class="about__block-body">NIORA is more than just skincare. It is a daily ritual:</p>
+                        <ul>
+                            <li>Elegant textures that feel luxurious.</li>
+                            <li>Delicate scents inspired by nature.</li>
+                            <li>Visible improvements that inspire confidence.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="about__quote-wrapper">
+                <div class="about__quote">
+                    “Skincare should be a ritual of harmony and beauty — not a compromise.”
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="contacts" id="contact">
+        <div class="container">
+            <h2 class="contacts__title">CONTACT</h2>
+            <p class="contacts__subtitle">We’d love to hear from you</p>
+            <div class="contacts__separator"></div>
+
+            <div class="contacts__content">
+                
+                <div class="contacts__column-info">
+                    <div class="contacts__block">
+                        <h3 class="info__title">Contact Information</h3>
+                        <p class="info__item"><strong>Email:</strong> hello@niora.com</p>
+                        <p class="info__item"><strong>Phone:</strong> +1 (234) 567-8901</p>
+                        <p class="info__item"><strong>Location:</strong> New York, USA</p>
+                    </div>
+
+                    <div class="contacts__block">
+                        <h3 class="info__title">Additional Information</h3>
+                        <p><strong>Work Schedule:</strong></p>
+                        <p class="info__item info__schedule">Mon - Sat : 9.00 - 19.00</p>
+                        <p class="info__item info__schedule">Sun : 10.00 - 17.00</p>
+                    </div>
+                    
+                    <div class="contacts__block">
+                        <h3 class="info__title">Gift Cards</h3>
+                        <p class="info__item">Buy Digital Gift Card</p>
+                        <p class="info__item">Select amount: $50, $100, $500</p>
+                    </div>
+
+                    <div class="contacts__block">
+                        <h3 class="info__title">Delivery</h3>
+                        <p class="info__item delivery__text">Delivery is available to all US states, EU countries, and Ukraine.</p>
+                    </div>
+
+                </div>
+
+                <div class="contacts__column-form">
+                    <h3 class="form__heading">Be in the know.</h3>
+                    <p class="form__subheading"><strong>Subscribe</strong> to receive science-backed tips, access to special offers, and new innovations.</p>
+                    
+                    <form class="contact-form" action="#" method="post">
+                        <input type="text" name="name" placeholder="Name" class="form__input form__field">
+                        <input type="email" name="email" placeholder="Email" class="form__input form__field">
+                        <input type="tel" name="phone" placeholder="Phone" class="form__input form__field">
+                        
+                        <textarea name="message" placeholder="Message" class="form__textarea form__field"></textarea>
+                        
+                        <div class="form__submit-group">
+                            <button type="submit" class="btn btn--submit">Submit</button>
+                        </div>
+                    </form>
+
+                    <p class="form__disclaimer">
+                        *By providing your email address you are agreeing to receive email communications from DECIEM Inc., its affiliates, brands (The Ordinary, NIOD, and LOoPHA) and/or marketing partners. This can be changed at any time. Please refer to our 
+                        <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a> for more details or <a href="#">Contact Us</a>.
+                    </p>
+                    
+                    <h3 class="social__heading">You can find us here too:</h3>
+                    
+                    <div class="social__links">
+                        <a href="#"><img src="img/inst.png" alt="Instagram" class="social__icon"></a>
+                        <a href="#"><img src="img/tiktok2.png" alt="TikTok" class="social__icon"></a>
+                        <a href="#"><img src="img/youtube.png" alt="YouTube" class="social__icon"></a>
+                        
+                        <p class="social__handle">@niora</p>
+                        <p class="social__handle">@niora.look</p>
+                        <p class="social__handle">@niora.blog</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__inner">
+            <p class="footer__copyright">© 2025 NIORA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    </main>
+
+    </body>
+</html>
